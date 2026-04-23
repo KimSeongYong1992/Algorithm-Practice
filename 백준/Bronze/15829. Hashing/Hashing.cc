@@ -7,13 +7,13 @@ int main() {
 	
 	cin >> Number >> Input;
 	
-	long long Hash = (long long)0;
-	long long Mod = (long long)1234567891;
-	long long Key = (long long)1;
+	int Hash = 0;
+	int Mod = 1234567891;
+	int Key = 1;
 	
 	for(int i = 0; i < Input.size(); ++i)
 	{
-		long long Index = Input[i] - 'a' + 1;
+		int Index = Input[i] - 'a' + 1;
 		Hash += Index * Key;
 		Hash %= Mod;
 		
