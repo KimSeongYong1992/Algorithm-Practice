@@ -1,3 +1,10 @@
+/******************************************************************************
+
+                              Online C++ Compiler.
+               Code, Compile, Run and Debug C++ program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
 
 #include <iostream>
 #include <vector>
@@ -47,10 +54,6 @@ void PrintAnswer(int Num)
 
 int main()
 {
-    ios_base::sync_with_stdio(false);
-	cin.tie(nullptr);
-	cout.tie(nullptr);
-    
     int Number = 0;
     cin >> Number;
     
